@@ -19,35 +19,31 @@ Pré-requisitos
 Como rodar:
 
 1. Clone o repositório
-   git clone https://github.com/seu-usuario/medstock.git
+   git clone https://github.com/ValeskaNishi/api-medstock.git
    cd medstock
 
 2. Execute a aplicação
+   
    ./mvnw spring-boot:run
 
 OBS: buildar antes
+
 ./mvnw clean install
+
 ./mvnw spring-boot:run
 
-A API estará disponível em: http://localhost:8080
+*A API estará disponível em: http://localhost:8080
 
-Banco de dados H2
+*Banco de dados H2
 O banco é em memória e reinicia a cada execução.
 
-Acesse o console pelo browser:
+*Acesse o console pelo browser:
 http://localhost:8080/h2-console
 
-Campo
-Valor
-JDBC URL
-jdbc:h2:mem:testdb
-Username
-sa
-Password
-(vazio)
-
-Para acessar ao Swagger:
+*Para acessar ao Swagger:
 http://localhost:8080/swagger-ui/index.html
+
+*Após subir a api clone e configure o Frontend: https://github.com/ValeskaNishi/app-medstock.git
 
 Testes
 ./mvnw test
