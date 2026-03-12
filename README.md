@@ -20,9 +20,10 @@ Como rodar:
 
 1. Clone o repositório
    git clone https://github.com/ValeskaNishi/api-medstock.git
+   
    cd medstock
 
-2. Execute a aplicação
+3. Execute a aplicação
    
    ./mvnw spring-boot:run
 
