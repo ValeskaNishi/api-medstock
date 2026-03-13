@@ -1,6 +1,6 @@
-MedStock API
+**MedStock API**
 
-Backend da aplicação MedStock para gerenciamento de estoque médico.
+Backend da aplicação MedStock, sistema de controle de insumos médicos desenvolvido para gerenciar produtos como medicamentos, EPIs e Materiais cirúrgicos. 
 
 Tecnologias
 
