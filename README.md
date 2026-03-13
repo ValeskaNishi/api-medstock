@@ -15,6 +15,7 @@ Tecnologias
 
 - Java 17
 - Maven 3.8+
+  
 
 Como rodar:
 
@@ -29,6 +30,7 @@ Como rodar:
 *3. Rode o comando para inicializar o projeto:*
 
    ./mvnw spring-boot:run
+
 
 *A API estará disponível em: http://localhost:8080
 
